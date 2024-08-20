@@ -1,0 +1,156 @@
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    color: #ff6347;
+}
+
+/* Hero Section */
+#hero {
+    background: linear-gradient(to right, #0072ff, #00c6ff);
+    color: #fff;
+    padding: 5px 25px 45px;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 2.5rem;
+}
+
+#hero p {
+    font-size: 1rem;
+    margin: 20px 0;
+    text-justify: inter-word;
+}
+
+/* skills section */
+#skill-container {
+    padding: 15px;
+    background-color: #e4e4e4;
+    margin: 2rem;
+}
+
+i{
+    font-size: 2.2rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+.img {
+    padding: 4px;
+    display: inline-block;
+    text-align: center;
+    margin: 1.2rem;
+}
+
+/* Projects Section */
+#projects {
+    padding: 40px 10px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    width: 400px;
+    background-color: #f4f4f4;
+    margin: 1.7rem ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.07);
+}
+
+/* Contact Section */
+#contact {
+    padding: 30px 20px;
+    background-color: #e4e4e4;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-card {
+    width: 200px;
+    background-color: #f4f4f4;
+    margin: 1rem ;
+    padding: 29px 10px;
+    border-radius: 0.7rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.contact-card:hover {
+    transform: scale(1.1);
+}
+
+/* certificate */
+#certificate {
+    padding: 40px 10px;
+    background-color: #fff;
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    margin: 2.1rem ;
+    border-radius: 0.7rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+/* footer section */
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
